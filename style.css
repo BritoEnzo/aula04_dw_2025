@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+.topo {
+
+    align-content: center;
+    background-color: rgb(10, 10, 10);
+    height: 08vh;
+}
+.topo img{
+    height: 07vh;
+    width: 07vh;
+}
+.topo ul{
+    display: flex;
+    justify-content: space-between;
+}
+.topo ul li{
+    list-style: none;
+    margin: auto;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 2s;
+}
+.topo ul li:hover{
+    transform: scale(1.5);
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+.container .blocos{
+    height: 40vh;
+    width: 45vh;
+    background-color: rgb(224, 224, 224);
+    align-content: center;
+}
+.container .blocos h1{
+    font-size: larger;
+    text-align: center;
+    text-justify: auto;
+}
